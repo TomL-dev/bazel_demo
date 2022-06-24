@@ -1,3 +1,3 @@
-module github.com/toml-dev/bazel_demo
+module github.com/TomL-dev/bazel_demo
 
 go 1.18

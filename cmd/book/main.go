@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/toml-dev/bazel_demo/internal/service"
+	"github.com/TomL-dev/bazel_demo/internal/service"
 )
 
 func main() {
