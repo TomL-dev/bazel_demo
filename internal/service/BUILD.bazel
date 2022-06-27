@@ -5,4 +5,5 @@ go_library(
     srcs = ["service.go"],
     importpath = "github.com/TomL-dev/bazel_demo/internal/service",
     visibility = ["//:__subpackages__"],
+    deps = ["//internal/repository"],
 )

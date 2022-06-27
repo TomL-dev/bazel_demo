@@ -5,7 +5,10 @@ go_library(
     srcs = ["main.go"],
     importpath = "github.com/TomL-dev/bazel_demo/cmd/book",
     visibility = ["//visibility:private"],
-    deps = ["//internal/service"],
+    deps = [
+        "//internal/repository",
+        "//internal/service",
+    ],
 )
 
 go_binary(

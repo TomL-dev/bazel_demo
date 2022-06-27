@@ -1,0 +1,8 @@
+load("@io_bazel_rules_go//go:def.bzl", "go_library")
+
+go_library(
+    name = "repository",
+    srcs = ["repository.go"],
+    importpath = "github.com/TomL-dev/bazel_demo/internal/repository",
+    visibility = ["//:__subpackages__"],
+)
